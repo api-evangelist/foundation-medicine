@@ -1,8 +1,27 @@
 aid: foundation-medicine
-name: Foundation Medicine *
-description: 'Foundation Medicine * is a company surfaced as a portfolio company of gv, kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile
-  is a lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foundation-medicine.png
+name: Foundation Medicine
+description: 'Foundation Medicine is a molecular information and precision cancer diagnostics
+  company that develops comprehensive genomic profiling (CGP) tests for solid tumors,
+  blood cancers, and sarcomas, including its FoundationOne family of assays. Its testing
+  analyzes patient tumor and liquid-biopsy samples to identify genomic alterations that
+  can inform targeted therapy, immunotherapy, and clinical-trial matching, and it partners
+  with biopharma on companion diagnostics and clinical-trial enrollment. A Roche company,
+  it has delivered more than 1.5 million patient CGP reports and supports 950+ clinical
+  trials. This profile was surfaced as a venture-portfolio lead (gv, kleiner-perkins) and
+  enriched by the API Evangelist pipeline; the company publishes no public developer API
+  or portal, so this record captures its public web, legal, and security-disclosure surface.'
 url: https://raw.githubusercontent.com/api-evangelist/foundation-medicine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Genomics
+- Cancer Diagnostics
+- Precision Medicine
+- Molecular Profiling
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://foundationmedicine.com
+  url: https://www.foundationmedicine.com
+- type: Blog
+  url: https://www.foundationmedicine.com/newsroom
+- type: Support
+  url: https://www.foundationmedicine.com/contact
+- type: PrivacyPolicy
+  url: https://www.foundationmedicine.com/privacy
+- type: DomainSecurity
+  url: security/foundation-medicine-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/foundation-medicine-vulnerability-disclosure.yml
+- type: Security
+  url: https://hackerone.com/roche?view_policy=true
+- type: WellKnown
+  url: well-known/foundation-medicine-well-known.yml
+- type: SecurityTxt
+  url: well-known/foundation-medicine-security.txt
+- type: LLMsTxt
+  url: llms/foundation-medicine-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

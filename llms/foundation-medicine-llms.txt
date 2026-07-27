@@ -1,0 +1,18 @@
+# Foundation Medicine
+
+> Molecular information and precision cancer diagnostics company. Foundation Medicine develops comprehensive genomic profiling (CGP) tests (the FoundationOne family) for solid tumors, blood cancers, and sarcomas, identifying genomic alterations that inform targeted therapy, immunotherapy, and clinical-trial matching. A Roche company. No public developer API or portal is published; this record captures the company's public web, legal, and security-disclosure surface.
+
+## Company
+- [Website](https://www.foundationmedicine.com): Foundation Medicine home
+- [Newsroom / Precision Points Blog](https://www.foundationmedicine.com/newsroom): press releases and blog
+- [Contact / Support](https://www.foundationmedicine.com/contact): provider, patient, and biopharma contact
+- [Order a Test](https://www.foundationmedicine.com/order-a-test): ordering FoundationOne assays
+- [Careers](https://careers.foundationmedicine.com/home): careers site
+
+## Legal
+- [Privacy Policy](https://www.foundationmedicine.com/privacy): privacy policy
+- [Notice of Privacy Practices (HIPAA)](https://www.foundationmedicine.com/resource/notice-of-privacy-practices): HIPAA notice
+
+## Security
+- [security.txt](https://www.foundationmedicine.com/.well-known/security.txt): RFC 9116 security contact (routes to Roche)
+- [Roche Vulnerability Disclosure / Bug Bounty](https://hackerone.com/roche?view_policy=true): Roche HackerOne program (security@roche.com)
